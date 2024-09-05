@@ -18,6 +18,7 @@ const Header = () => {
       dispatch({ type: `refreshProducts` });
     });
     setOpen(false);
+
     console.log("Success:", values);
   };
   const onFinishFailed = (errorInfo) => {
