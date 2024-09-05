@@ -1,0 +1,12 @@
+.hero__carousel {
+  scroll-snap-type: x mandatory;
+  &::-webkit-scrollbar {
+    height: 0.1rem;
+  }
+  &::-webkit-slider-thumb {
+    background-color: red;
+  }
+  &--item {
+    scroll-snap-align: center;
+  }
+}
